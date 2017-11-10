@@ -3,9 +3,11 @@ layout: page
 title: About
 permalink: /about/
 ---
-MSc Physics from ETH Zurich (2017 pending)*
-BSc Software Engineering from the University of Iceland (2015)*
-BSc Physics from the University of Iceland (2015)*
+MSc Physics from ETH Zurich (2017 pending)
+
+BSc Software Engineering from the University of Iceland (2015)
+
+BSc Physics from the University of Iceland (2015)
 
 [//]: # Some information about you!
 
