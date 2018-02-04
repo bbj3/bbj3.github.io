@@ -84,3 +84,4 @@ exclude:
   - CNAME
 
 remote_theme: "mmistakes/minimal-mistakes"
+
