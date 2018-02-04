@@ -1,6 +1,5 @@
 ---
-layout: default
 title: what
 ---
 
-This is it - --
+This is it - ---
