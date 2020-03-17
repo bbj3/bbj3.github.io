@@ -546,7 +546,7 @@ plotImages(augmented_images, 6)
 
 
 
-![png](CNN_classification_files/CNN_classification_33_1.png)
+![cats and dogs 2](/images/cats_and_dogs_2.png)
 
 
 ### Rotating 
@@ -573,7 +573,7 @@ plotImages(augmented_images, 6)
 ```
 
 
-![png](CNN_classification_files/CNN_classification_36_0.png)
+![cats and dogs 3](/images/cats_and_dogs_3.png)
 
 
 ### Shear mapping
@@ -597,7 +597,7 @@ plotImages(augmented_images, 6)
 
 
 
-![png](CNN_classification_files/CNN_classification_38_1.png)
+![cats and dogs 4](/images/cats_and_dogs_4.png)
 
 
 ## Final augmented dataset
@@ -635,7 +635,7 @@ plotImages(augmented_images, 6)
 ```
 
 
-![png](CNN_classification_files/CNN_classification_43_0.png)
+![cats and dogs 5](/images/cats_and_dogs_5.png)
 
 
 The generator for the validation dataset does not apply any transformations besides simply rescaling them and splitting into batches.
@@ -945,7 +945,7 @@ plt.show()
 ```
 
 
-![png](CNN_classification_files/CNN_classification_52_0.png)
+![perfomance second model](/images/performance_second_model.png)
 
 
 We see that the accuracy goes up "almost" monotonically for both the training and validation set and the performance on the validation set is considerably better than before.
