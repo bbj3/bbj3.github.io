@@ -176,7 +176,7 @@ plotImages(sample_training_images[:6], 6)
 ```
 
 
-![png](images/cats_dogs_1.png)
+![cats and dogs](images/cats_dogs_1.png)
 
 
 ## Defining the network
