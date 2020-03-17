@@ -5,7 +5,7 @@ When using convolutional neural networks (CNNs) it’s easy to run into the prob
 2. [Data Preparation](## Data Preparation)
 3. [Defining the network](## Defining the network)
 4. [Training the model](## Training the model)
-5. [How to prevent overfitting](## How to prevent overfitting)
+5. [Data Augmentation](## Data Augmentation)
 6. [Final augmented dataset](##Final augmented dataset)
 7. [Improving the model](## Improving the model)
 8. [Results of improved model](## Results of improved model)
