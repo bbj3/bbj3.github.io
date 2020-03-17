@@ -1,5 +1,16 @@
 
-When using convolutional neural networks (CNNs) it’s easy to run into the problem of overfitting. However there are a few things we can do to tackle this problem and here I intend to demonstrate the effectiveness of a couple of them.
+When using convolutional neural networks (CNNs) it’s easy to run into the problem of overfitting. However there are a few things we can do to tackle this problem and here I intend to demonstrate the effectiveness of a couple of them. 
+
+1. [Explore the Dataset](##Explore the Dataset)
+2. [Data Preparation](## Data Preparation)
+3. [Defining the network](## Defining the network)
+4. [Training the model](## Training the model)
+5. [How to prevent overfitting](## How to prevent overfitting)
+6. [Final augmented dataset](##Final augmented dataset)
+7. [Improving the model](## Improving the model)
+8. [Results of improved model](## Results of improved model)
+
+
 
 Our task is to classify images of cats and dogs, using a convolutional neural network. Sounds easy enough. We start by downloading a dataset(or part of it) from Microsoft Research.
 
