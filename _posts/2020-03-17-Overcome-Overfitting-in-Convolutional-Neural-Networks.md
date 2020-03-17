@@ -137,7 +137,7 @@ train_image_generator      = ImageDataGenerator(rescale=1./255)
 validation_image_generator = ImageDataGenerator(rescale=1./255) 
 ```
 
-the method flow_from_directory method will load images from the disk for each batch it will also rescale the pixel values using the rescale factor we defined above, and resize the figures to IMG_SHAPE a using single line of code.
+the method flow_from_directory will load images from the disk for each batch it will also rescale the pixel values using the rescale factor we defined above, and resize the figures to IMG_SHAPE a using single line of code.
 
 
 ```
@@ -311,9 +311,9 @@ plt.show()
 ![first model](/images/performance_first_model.png)
 
 
-We see that after ca. 10 epochs the perfomance, of the model on the training and testing set, starts to diverge. This is a clear indication of overfitting. What we could do stop the training after ca. 10 epochs(early stopping). But let's explore some alternatives to that.
+We see that after ca. 10 epochs the perfomance, of the model on the training and testing set, starts to diverge. This is a clear indication of overfitting. What we could do is to stop the training after ca. 10 epochs(early stopping). But let's explore some alternatives to that.
 
-## How to prevent overfitting
+## Data Augmentation
 
 When our dataset is limited we often run into the problem of overfitting. But what if we don't have any more data, how can we handle that? One way is to augment the dataset we already have. We can apply random transformations to the images for instance: zoom, rotate and flip them horizontally.
 
@@ -539,4 +539,4 @@ plt.show()
 ![perfomance second model](/images/performance_second_model.png)
 
 
-We see that the accuracy goes up "almost" monotonically for both the training and validation set and the performance on the validation set is considerably better than before.
+We see that the accuracy goes up "almost" monotonically for both the training and validation set and the performance on the validation set is considerably better than before - simply by augmenting the dataset with simple transformations and adding dropout to the neural network.
