@@ -7,7 +7,7 @@ When using convolutional neural networks (CNNs) it’s easy to run into the prob
 4. [Training the model](## Training the model)
 5. [Data Augmentation](## Data Augmentation)
 6. [Final augmented dataset](##Final augmented dataset)
-7. [Improving the model](## Improving the model)
+7. [Improving the model - Dropout](## Improving the model - Dropout)
 8. [Results of improved model](## Results of improved model)
 
 
@@ -452,7 +452,7 @@ val_data_gen = image_gen_val.flow_from_directory(batch_size=BATCH_SIZE,
     Found 1000 images belonging to 2 classes.
 
 
-## Improving the model
+## Improving the model - Dropout
 
 Now we have augmented the training dataset to help reduce overfitting. We can also improve the model itself to fight overfitting by applying dropout with probability of 50 %. Which means that 50% (randomly chosen) of the values coming into the dropout layers will be set to zero.
 
