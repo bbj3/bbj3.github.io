@@ -176,7 +176,7 @@ plotImages(sample_training_images[:6], 6)
 ```
 
 
-![png](CNN_classification_files/CNN_classification_19_0.png)
+![png](images/cats_dogs_1.png)
 
 
 ## Defining the network
