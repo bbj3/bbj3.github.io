@@ -509,7 +509,7 @@ plt.show()
 ```
 
 
-![png](CNN_classification_files/CNN_classification_27_0.png)
+![first model](/images/performance_first_model.png)
 
 
 We see that after ca. 10 epochs the perfomance, of the model on the training and testing set, starts to diverge. This is a clear indication of overfitting. What we could do stop the training after ca. 10 epochs(early stopping). But let's explore some alternatives to that.
