@@ -3,7 +3,7 @@ layout: page
 title: About
 permalink: /about/
 ---
-MSc Physics from ETH Zurich (2017 pending)
+MSc Physics from ETH Zurich (2017)
 
 BSc Software Engineering from the University of Iceland (2015)
 
