@@ -16,9 +16,9 @@ The threshold in our classifier can be set to different values resulting in, for
 
 
 In the rightmost classifier the True Positive Rate (TPR) is ca. 0.5 but our False Positive Rate (FPR) is very low (<0.1). 
-The classifier to the left already has TPR of 1.0 but still a very low FPR (<0.2) - and for both of these classifiers we can let the FPR approach 0 as we add more negtive points in the upper-left corner. 
+The classifier to the left already has TPR of 1.0 but still a very low FPR (<0.2) - and for both of these classifiers we can let the FPR approach 0 as we add more negative points in the upper-left corner. 
 
-If we would increase the threshold (which would result in boundaries to the left of the two boundaries shown) we would get classifiers on with TRP=1 but increasing FPR. This would give use the flat line on the top of the ROC curve.
+If we would increase the threshold (which would result in boundaries to the left of the two boundaries shown) we would get classifiers on with TPR=1 but increasing FPR. This would give use the flat line on the top of the ROC curve.
 
 
 All in all we see that by changing the threshold we would get a great result when measured by the ROC-AUC (close to 1). However this metric completely misses the fact that all of those classifiers are extremely poor when it comes to precision.
