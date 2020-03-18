@@ -7,12 +7,12 @@ When dealing with imbalanced datasets it can be tempting to take the usual appro
 
 Let's take a look at the dataset in the figure below. Blue dots represent the positive class and red dots the negative class. We can assume that we are doing binary classification using logistic regression. 
 
-![imbalanced dataset and boundaries](/images/imbalanced_DS_boundaries2.png)
+![imbalanced dataset and boundaries](/images/imbalanced_DS.png)
 
 
 The threshold in our classifier can be set to different values resulting in, for example, the two different boundaries shown in the following figure. 
 
-![imbalanced dataset and boundaries](/images/imbalanced_DS.png)
+![imbalanced dataset and boundaries](/images/imbalanced_DS_boundaries2.png)
 
 
 In the rightmost classifier the True Positive Rate (TPR) is ca. 0.5 but our False Positive Rate (FPR) is very low (<0.1). 
