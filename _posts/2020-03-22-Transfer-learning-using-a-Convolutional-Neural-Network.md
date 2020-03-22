@@ -94,7 +94,7 @@ print("Total validation images:", total_val)
     Total validation images: 1000
 
 
-MobileNetV2 takes as input figures of size 224*224 so that's what we have to adjust our images to that size.
+MobileNetV2 takes as input figures of size 224*224 so we have to adjust our images to that size.
 
 
 ```
@@ -177,7 +177,7 @@ feature_extractor = hub.KerasLayer(URL,
                                    input_shape=(IMG_SHAPE, IMG_SHAPE,3))
 ```
 
-We want to keep all the parameters in the models as they are and only optimize the last layer, so we set the parameters in the moobileNet network to non trainable.
+We want to keep all the parameters in the models as they are and only optimize the last layer, so we set the parameters in the MobileNet network to non trainable.
 
 
 ```
@@ -231,55 +231,6 @@ history = model.fit_generator(
 
 ```
 
-    WARNING:tensorflow:From <ipython-input-13-281f43866c18>:13: Model.fit_generator (from tensorflow.python.keras.engine.training) is deprecated and will be removed in a future version.
-    Instructions for updating:
-    Please use Model.fit, which supports generators.
-
-
-    WARNING:tensorflow:From <ipython-input-13-281f43866c18>:13: Model.fit_generator (from tensorflow.python.keras.engine.training) is deprecated and will be removed in a future version.
-    Instructions for updating:
-    Please use Model.fit, which supports generators.
-
-
-    WARNING:tensorflow:sample_weight modes were coerced from
-      ...
-        to  
-      ['...']
-
-
-    WARNING:tensorflow:sample_weight modes were coerced from
-      ...
-        to  
-      ['...']
-
-
-    WARNING:tensorflow:sample_weight modes were coerced from
-      ...
-        to  
-      ['...']
-
-
-    WARNING:tensorflow:sample_weight modes were coerced from
-      ...
-        to  
-      ['...']
-
-
-    Train for 20 steps, validate for 10 steps
-    Epoch 1/6
-    20/20 [==============================] - 29s 1s/step - loss: 0.3412 - accuracy: 0.8485 - val_loss: 0.0976 - val_accuracy: 0.9750
-    Epoch 2/6
-    20/20 [==============================] - 26s 1s/step - loss: 0.1278 - accuracy: 0.9510 - val_loss: 0.0641 - val_accuracy: 0.9800
-    Epoch 3/6
-    20/20 [==============================] - 26s 1s/step - loss: 0.1022 - accuracy: 0.9620 - val_loss: 0.0537 - val_accuracy: 0.9840
-    Epoch 4/6
-    20/20 [==============================] - 26s 1s/step - loss: 0.0911 - accuracy: 0.9660 - val_loss: 0.0530 - val_accuracy: 0.9810
-    Epoch 5/6
-    20/20 [==============================] - 26s 1s/step - loss: 0.0816 - accuracy: 0.9655 - val_loss: 0.0482 - val_accuracy: 0.9810
-    Epoch 6/6
-    20/20 [==============================] - 26s 1s/step - loss: 0.0850 - accuracy: 0.9685 - val_loss: 0.0444 - val_accuracy: 0.9860
-
-
 Let's plot the performance of the model as a function of epochs.
 
 
@@ -308,9 +259,9 @@ plt.show()
 ```
 
 
-![png](CNN_transfer_learning_files/CNN_transfer_learning_24_0.png)
+![png](/images/training_transfer_learning.png)
 
 
-The accuracy of the validation set is around 0.99, in comparison the accuracy of the validation set in the previous blog post was around 0.83 . We also note that the accuracy of in the training set is lower than in the validation set, this could be due to the fact that the training set contains augmented images which might be harder to classify then images in the validation set. 
+The accuracy of the validation set is around 0.99, in comparison the accuracy of the validation set in the previous blog post was around 0.83 . We also note that the accuracy in the training set is lower than in the validation set, this could be due to the fact that the training set contains augmented images which might be harder to classify then images in the validation set. 
 
 All in all see that by using this pretrained model we get much higher accuracy with minimal effort.
