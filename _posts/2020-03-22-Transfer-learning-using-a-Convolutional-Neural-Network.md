@@ -259,7 +259,7 @@ plt.show()
 ```
 
 
-![png](/images/training_transfer_learning.png)
+![performance of the model](/images/training_transfer_learning.png)
 
 
 The accuracy of the validation set is around 0.99, in comparison the accuracy of the validation set in the previous blog post was around 0.83 . We also note that the accuracy in the training set is lower than in the validation set, this could be due to the fact that the training set contains augmented images which might be harder to classify then images in the validation set. 
