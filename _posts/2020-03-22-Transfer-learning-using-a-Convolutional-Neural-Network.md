@@ -1,5 +1,5 @@
 
-Transfer learning is using a neural network which has been trained for solving a specific task and applying to a different problem. For example in this paper (https://www.nature.com/articles/nature21056.epdf) from 2017 a neural network was pre-trained on the ImageNet dataset with 1000 classes. That network was then trained to classify images of skin lesions, which are completely different from the 1000 classes in ImageNet. 
+Transfer learning is using a neural network which has been trained for solving a specific task and applying to a different problem. For example in this [paper](https://www.nature.com/articles/nature21056.epdf) from 2017 a neural network was pre-trained on the ImageNet dataset with 1000 classes. That network was then trained to classify images of skin lesions, which are completely different from the 1000 classes in ImageNet. 
 
 Of course the network is not completely ready to start solving the new task, we have to perform some optimization and change the structure of the network at least a little bit. But the changes can be bound to the last layer.
 
