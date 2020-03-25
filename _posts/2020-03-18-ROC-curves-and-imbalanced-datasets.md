@@ -15,7 +15,7 @@ The threshold in our classifier can be set to different values resulting in, for
 ![imbalanced dataset and boundaries](/images/imbalanced_DS_boundaries2.png)
 
 
-In the rightmost classifier the True Positive Rate (TPR) is ca. 0.5 but our False Positive Rate (FPR) is very low (<0.1). 
+In the rightmost classifier the True Positive Rate ($TPR= \dfrac{TP}{P}=\dfrac{TP}{TP+FN}$) is ca. 0.5 but our False Positive Rate (FPR) is very low (<0.1). 
 The classifier to the left already has TPR of 1.0 but still a very low FPR (<0.2) - and for both of these classifiers we can let the FPR approach 0 as we add more negative points in the upper-left corner. 
 
 If we would increase the threshold (which would result in boundaries to the left of the two boundaries shown) we would get classifiers on with TPR=1 but increasing FPR. This would give use the flat line on the top of the ROC curve.
