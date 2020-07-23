@@ -22,6 +22,8 @@ time heuristic can provide a better performance guarantee.
 
 The details of the heuristic can be seen in the image below.
 
+![png](images/ravi_et_al_algo.png)
+
 #### Example code
 Let's code up this algorithm and quickly see how it works:
 
@@ -109,7 +111,7 @@ plt.show()
 ```
 
 
-![png](sampling_points_2_files/sampling_points_2_10_0.png)
+![png](images/ravi_distances.png)
 
 
 On the figure we see that the blue points (picked by the greedy algorithm) are indeed far apart! Mission accomplished.
