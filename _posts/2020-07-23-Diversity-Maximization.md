@@ -13,10 +13,10 @@ MAX-MIN: maximizing the minimum distance between any pair of data points.
 
 MAX-AVG: maximizing the average distance between all pairs of data points.
 
-In [Ravi et al] it is noted that for both diversity functions (max-min and max-avg) the problem is
+In [[Ravi et al](https://www.jstor.org/stable/171673?origin=JSTOR-pdf&seq=1)] it is noted that for both diversity functions (max-min and max-avg) the problem is
 NP-hard, even when the distances satisfy the triangle inequality. 
 
-Furthermore the paper provides a greedy heuristic which is a near-optimal solution the max-min and max-avg
+Furthermore the paper provides a greedy heuristic which is a near-optimal solution to the max-min and max-avg
 problem and they show that for the max-min problem the following holds: unless P = NP, no polynomial-
 time heuristic can provide a better performance guarantee.
 
@@ -24,7 +24,7 @@ The details of the heuristic can be seen in the image below.
 
 ![ravi algorithm](/images/ravi_et_al_algo.png)
 
-In the algorithm $V$ is the set of all points $v_1$, $v_2$ $\in$ $V$ and the set $P$ is the set of points chosen by the algorithm to maximize the minimum distance between any pair of data points. The function $w(v,v^{'})$ is simply the distance metric.
+In the algorithm $V$ is the set of all points and $v_1$, $v_2$ $\in$ $V$. The set $P$ is the set of points chosen by the algorithm to maximize the minimum distance between any pair of data points. The function $w(v,v^')$ is simply the distance metric.
 
 Here the "endpoints of an edge of maximum weight" refers to the pair of points in the set of points where the pairwise distance is the maximum among all pairs of points.
 
@@ -96,7 +96,7 @@ def random_point_on_unit_circle(N):
 random_circle_points = random_point_on_unit_circle(1000)
 ```
 
-Next we pick some points in V which maximize diversity according to max-min using the greedy heuristic above, this corresponds to the set $P$ above
+Next we pick some points in $V$ which maximizes diversity according to max-min using the greedy heuristic above, this corresponds to the set $P$ above.
 
 
 
