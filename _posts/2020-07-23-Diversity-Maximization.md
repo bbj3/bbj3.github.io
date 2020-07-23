@@ -24,7 +24,7 @@ The details of the heuristic can be seen in the image below.
 
 ![ravi algorithm](/images/ravi_et_al_algo.png)
 
-In the algorithm $V$ is a set of all points $v_1$, $v_2$ $\in$ $V$ 
+In the algorithm $V$ is a set of all points $v_1$, $v_2$ $\in$ $V$ and the set $P$ is the set of points chosen by the algorithm to maximize the minimum distance between any pair of data points. The function $w(v,v^{'})$
 
 Here the "endpoints of an edge of maximum weight" refers to the pair of points in the set of points where the pairwise distance is the maximum among all pairs of points.
 
