@@ -4,7 +4,7 @@ return a diverse set of search results in a search engine or pick the most diver
 
 These are all examples of diversity maximization (also called dispersion problem) and essentially it's about arranging/picking points as far away from each other as possible.
 
-I recently read an interesting(but quite old) paper on this problem by Ravi et al (https://www.jstor.org/stable/171673?origin=JSTOR-pdf&seq=1).
+I recently read an interesting(but quite old) paper on this problem [Ravi et al](https://www.jstor.org/stable/171673?origin=JSTOR-pdf&seq=1).
 
 #### Quantitative Perspective
 When approaching diversity maximization, we must first decide on a function for quanitfying diversity to be able to maximize that particular function. Two examples of diversity objectives are:
