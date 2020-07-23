@@ -6,7 +6,7 @@ These are all examples of diversity maximization (also called dispersion problem
 
 I recently read an interesting(but quite old) paper on this problem [Ravi et al](https://www.jstor.org/stable/171673?origin=JSTOR-pdf&seq=1).
 
-#### Quantitative Perspective
+### Quantitative Perspective
 When approaching diversity maximization, we must first decide on a function for quanitfying diversity to be able to maximize that particular function. Two examples of diversity objectives are:
 
 MAX-MIN: maximizing the minimum distance between any pair of data points.
@@ -24,7 +24,11 @@ The details of the heuristic can be seen in the image below.
 
 ![ravi algorithm](/images/ravi_et_al_algo.png)
 
-#### Example code
+In the algorithm $V$ is a set of all points $v_1$, $v_2$ $\in$ $V$ 
+
+Here the "endpoints of an edge of maximum weight" refers to the pair of points in the set of points where the pairwise distance is the maximum among all pairs of points.
+
+### Example code
 Let's code up this algorithm and quickly see how it works:
 
 
