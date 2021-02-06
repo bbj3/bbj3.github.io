@@ -25,6 +25,6 @@ So the virtual private cloud is used to seperate resources from the rest of the 
 
 
 
-**Auto scaling group**: instead of monitoring traffic and manually create new EC2 instances we can use Auto-scaling groups which use a launch template and scaling rules to expand or shrink a pool of instances automatically. The launch template  defines the image used, subnet, shell script when launching the image, maximum and minimum number of images and scaling rules (i.e. when to launch new instances).  We can set up a load balancer to route incoming requests to the EC2 instances in the autoscaling group. By that we have a stable DNS entrypoint and we can balance requessts to multiple instances in the autoscaling group.
+**Auto scaling group**: instead of monitoring traffic and manually creating new EC2 instances we can use Auto-scaling groups which use a launch template and scaling rules to expand or shrink a pool of instances automatically. The launch template  defines the image used, subnet, shell script when launching the image, maximum and minimum number of images and scaling rules (i.e. when to launch new instances).  We can set up a load balancer to route incoming requests to the EC2 instances in the autoscaling group. By that we have a stable DNS entrypoint and we can balance requests to multiple instances in the autoscaling group.
 
 
